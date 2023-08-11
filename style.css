@@ -1,40 +1,24 @@
 /* style.css */
 
-.hero,
-footer {
-    background-color: #1f2937;
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.heromaintext{
-    font-size: 48px;
-    font-weight: 1400;
-    color: #f9faf8;
-}
 
-.herosectext,
-.headerlinktext{
-    font-size: 18px;
+
+text {
+    color: #1f2937;
     color: #e5e7eb;
-}
-
-.button,
-.cta{
     color: #3882f6;
-}
+    color: #f9faf8;
 
-.infoheadertext{
-    font-size: 36px;
     font-weight: 1400;
-    color: #1f2937;
-}
-
-.quotebackground{
-    color: #e5e7eb;
-}
-
-.quotetext{
-    font-size: 36px;
-    font-weight: 300;
+    font-weight: 100;
+    
     font-style: italic;
-    color: #1f2937;
+
+    font-size: 18px;
+    font-size: 24px;
+    font-size: 36px;
+    font-size: 48px;
 }
