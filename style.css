@@ -23,47 +23,39 @@
     --huge: 48px;
 }
 
-/* Semantic */
-
-:root {
-    --primary: ;
-    --onprimary: ;
-    --secondary: ;
-    --onsecondary: ;
-}
-
 /* tags */
 
 blockquote{
-    color: ;
-    font-size: ;
-    font-style: ;
+    color: var(--blue20);
+    font-size: var(--big);
+    font-style: var(--italic);
+    font-weight: var(--light);
 }
 
 button{
-    color: 
+    color: var(--blue80);
 }
 
 h1{
-    color: ;
-    font-size: ;
-    font-weight: ;
+    color: var(--white100);
+    font-size: var(--huge);
+    font-weight: var(--heavy);
 }
 
 h2{
-    color: ;
-    font-size: ;
-    font-weight: ;
+    color: var(--blue20);
+    font-size: var(--big);
+    font-weight: var(--heavy);
 }
 
 h3{
-    color: ;
-    font-size: ;
+    color: var(--white100);
+    font-size: var(--medium);
 }
 
 h4{
-    color: ;
-    font-size: ;
+    color: var(--white99);
+    font-size: var(--small);
 }
 
 
@@ -71,13 +63,13 @@ h4{
 /* classes */
 
 .bgmain{
-    background-color: ;
+    background-color: var(--blue20);
 }
 
 .bgcta{
-    background-color: ;
+    background-color: var(--blue80);
 }
 
 .bgbq{
-    background-color: ;
+    background-color: var(--white99);
 }
